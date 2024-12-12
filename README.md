@@ -116,11 +116,20 @@ Use the trained model to classify test images. Modify the notebook to point to t
 ## Requirements
 
 This project uses Python 3.8 or higher and the following packages:
-- `torch`
-- `torchvision`
-- `numpy`
-- `pandas`
-- `matplotlib`
+- `torch==2.0.1`
+- `torchvision==0.15.2`
+- `timm`
+- `numpy>=1.20.0`
+- `pandas>=1.3.0`
+- `matplotlib>=3.4.0`
+- `tqdm`
+- `opencv-python>=4.5.0`
+- `Pillow>=8.0.0`
+- `pillow_heif>=0.9.0`
+- `pathlib`
+- `scikit-image`
+- `pytest`
+- `scikit-learn`
 
 Install them using `requirements.txt`:
 
