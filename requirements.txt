@@ -1,4 +1,3 @@
-
 torch==2.0.1              # Ensure compatibility with your PyTorch setup
 torchvision==0.15.2       # Matches the PyTorch version
 timm                     # For pre-trained models
@@ -11,3 +10,4 @@ Pillow>=8.0.0            # Image handling and manipulation
 pillow_heif>=0.9.0       # Adds HEIF/HEIC support for Pillow
 pathlib                  # For handling file paths
 scikit-image             # Additional image processing functions
+pytest                   # For running tests
